@@ -1,0 +1,92 @@
+:root {
+  --green: #1ab86b;
+  --card-hover: #17804d;
+  --blue-light: #6933ff;
+  --text-decoration: #1ab86b;
+  --text-dark: #000f32;
+
+  --background-color: #1f1f1e;
+  --shape: #f0f0f0;
+}
+
+span {
+  text-decoration: underline;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--shape);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+
+  margin: 60px auto 0;
+}
+
+img {
+  width: 100%;
+}
+
+img#avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  border: var(--blue-light) solid 4px;
+}
+
+h1 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 2rem;
+  color: var(--shape);
+}
+
+p {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+
+ul {
+  margin: 48px 0;
+}
+
+ul li a {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 53px;
+  width: 100%;
+  background: var(--green);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+
+  transition: all 400ms;
+}
+
+ul li a:hover {
+  background-color: var(--card-hover);
+}
+
+a {
+  color: var(--text-dark);
+}
+
+footer {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: var(--green);
+  opacity: 0.6;
+
+  
+}
+
+footer:hover {
+  opacity: 1;
+}
